@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DodajNowyOdcinekActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/grupa_g_rska" />
+
+    <Spinner
+        android:id="@+id/spinner_grupa_gorska_dodaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/punkt_startowy" />
+
+    <Spinner
+        android:id="@+id/spinner_punkt_startowy_dodaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/punkt_ko_cowy" />
+
+    <Spinner
+        android:id="@+id/spinner_punkt_koncowy_dodaj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:id="@+id/et_punktacja_dodaj"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/punktacja" />
+
+    <EditText
+        android:id="@+id/et_punktacja_odwrotnie_dodaj"
+        android:layout_width="match_parent"
+        android:inputType="number"
+        android:hint="@string/punktacja_odwrotnie"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_dodaj_nowy_odcinek"
+        android:text="@string/dodaj_nowy_odcinek"
+        android:layout_width="match_parent"
+        android:onClick="dodajNowyOdcinek"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

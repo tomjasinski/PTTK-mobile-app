@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PotwierdzenieJednejTrasyActivity">
+
+    <TextView
+        android:id="@+id/tv_info_trasa"
+        android:layout_width="match_parent"
+        android:text="@string/trasa_info"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_potwierdz_trase"
+        android:layout_width="match_parent"
+        android:onClick="potwierdzTrase"
+        android:text="@string/potwierd_tras"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btn_odrzuc_trase"
+        android:layout_width="match_parent"
+        android:onClick="odrzucTrase"
+        android:text="@string/odrzu_tras"
+        android:layout_height="wrap_content"/>
+
+    <ListView
+        android:id="@+id/lv_trasa_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

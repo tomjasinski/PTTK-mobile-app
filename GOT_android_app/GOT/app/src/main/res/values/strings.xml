@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">GOT</string>
+    <string name="rejestracja">Rejestracja</string>
+    <string name="mail">Mail</string>
+    <string name="haslo">Hasło</string>
+    <string name="imie">Imię</string>
+    <string name="nazwisko">Nazwisko</string>
+    <string name="data_urodzenia">Data urodzenia</string>
+    <string name="podaj_dane">Podaj dane:</string>
+    <string name="date_format">YYYY-MM-DD</string>
+    <string name="choose_date">Choose date</string>
+    <string name="wybierz_dat_urodzenia">Wybierz datę urodzenia</string>
+    <string name="title_activity_zaloguj">ZalogujActivity</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="zaloguj">Zaloguj</string>
+    <string name="info">Info</string>
+    <string name="dodaj_nowy_odcinek">Dodaj nowy odcinek</string>
+    <string name="grupa_g_rska">Grupa górska</string>
+    <string name="punktacja">Punktacja</string>
+    <string name="punktacja_odwrotnie">Punktacja odwrotnie</string>
+    <string name="punkt_startowy">Punkt startowy</string>
+    <string name="punkt_ko_cowy">Punkt końcowy</string>
+    <string name="wnioski_oczekuj_ce_na_potwierdzenie">Wnioski oczekujące na potwierdzenie:</string>
+    <string name="potwierdzanie_tras">Potwierdzanie tras</string>
+    <string name="odrzu_tras">Odrzuć trasę</string>
+    <string name="potwierd_tras">Potwierdź trasę</string>
+    <string name="trasa_info">Trasa info</string>
+</resources>
